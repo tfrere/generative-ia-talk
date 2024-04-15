@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Generative AI talk</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- data-background="#00ffff" -->
+        <section>
+          <img src="assets/intro.webp" />
+          <aside class="notes">
+            <ul>
+              <li>Donner la temporalité : 25 min</li>
+              <li>
+                Conférence interactive, les gens sont intvités à poser plein de
+                questions
+              </li>
+              <li>Donner la table des matières</li>
+              <li>
+                ChatGPT : 100 M users mensuels actifs en deux mois après son
+                lancement -> l’innovation avec la croissance la plus forte tout
+                temps confondus..
+              </li>
+            </ul>
+          </aside>
+        </section>
+
+        <!-- GAN -->
+        <!-- <section>
+          <section>
+            <img src="assets/timeline-intro.webp" />
+            <aside class="notes">
+              En résumé, une IA prédictive est comme une boîte magique qui peut
+              deviner ce qui va arriver en se basant sur ce qu'elle a déjà vu,
+              tandis qu'une IA générative est une boîte magique qui peut créer
+              de nouvelles choses en utilisant son imagination et ce qu'elle a
+              appris.
+            </aside>
+          </section>
+
+          <section>
+            <img src="assets/timeline-research.webp" />
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <img src="assets/timeline-first-part.webp" />
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <img src="assets/timeline-middle-part.webp" />
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <img src="assets/timeline-last-part.webp" />
+            <aside class="notes"></aside>
+          </section>
+        </section> -->
+
+        <!-- GAN -->
+        <!-- <section>
+          <section>
+            <img src="assets/gan-intro.webp" />
+            <aside class="notes">Generative adversarial network</aside>
+          </section>
+          <section>
+            <img src="assets/gan-database.webp" />
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <img src="assets/gan-generator-and-discriminatior.webp" />
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <img src="assets/gan-latent-space.webp" />
+            <aside class="notes">
+              Un espace latent est un ensemble d'objets dans lequel les objets
+              qui se ressemblent le plus sont positionnés plus près les uns des
+              autres. La position dans l'espace latent peut être considérée
+              comme étant définie par un ensemble de variables latentes qui
+              émergent des ressemblances entre les objets.
+            </aside>
+          </section>
+          <section>
+            <video data-autoplay data-loop src="assets/face-morph.webm"></video>
+            <aside class="notes">this-person-does-not-exist.com</aside>
+          </section>
+          <section>
+            <img src="assets/gan-progress-in-time.webp" />
+            <aside class="notes"></aside>
+          </section>
+        </section> -->
+
+        <!-- GAN CLIP -->
+        <!-- <section>
+          <section>
+            <img src="assets/gan-clip-intro.webp" />
+            <aside class="notes">Contrastive image language pretraining</aside>
+          </section>
+          <section>
+            <img src="assets/gan-clip-database.webp" />
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <img src="assets/gan-clip-latent-space.webp" />
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <img src="assets/gan-clip-iterations.webp" />
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <img src="assets/gan-clip-prompts.webp" />
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <img src="assets/gan-clip-examples.webp" />
+            <aside class="notes"></aside>
+          </section>
+        </section> -->
+
+        <!-- MIDJOURNEY -->
+        <!-- <section>
+          <section>
+            <img src="assets/midjourney-intro.webp" />
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <img src="assets/midjourney-laion.webp" />
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <img src="assets/midjourney-transformers.webp" />
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <img src="assets/midjourney-diffusion.webp" />
+            <aside class="notes"></aside>
+          </section>
+        </section> -->
+
+        <!-- TIMELINE -->
+        <section>
+          <section>
+            <img src="assets/timeline-intro.webp" />
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <img src="assets/timeline-conditions.webp" />
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <img src="assets/timeline-first-part.webp" />
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <img src="assets/timeline-last-part.webp" />
+            <aside class="notes"></aside>
+          </section>
+        </section>
+
+        <!-- OBVIOUS -->
+        <section>
+          <section>
+            <img src="assets/obvious-intro.webp" />
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <img src="assets/obvious-belami.webp" />
+            <aside class="notes">
+              Le nom Belamy vient de Ian Goodfellow, inventor des GAN Goodfellow
+              -> Belamy
+            </aside>
+          </section>
+          <section>
+            <img src="assets/obvious-estampe-1.webp" />
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <img src="assets/obvious-masks.webp" />
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <!-- <img src="assets/obvious-masks-latent-space.webp" /> -->
+            <video
+              data-autoplay
+              data-loop
+              src="assets/black-latent-space-viz-african-masks.mp4"
+            ></video>
+
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <img src="assets/obvious-cooking.webp" />
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <video
+              data-autoplay
+              data-loop
+              src="assets/iwantredmeal.mp4"
+            ></video>
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <video
+              data-autoplay
+              data-loop
+              src="assets/moveyourfinger.mp4"
+            ></video>
+            <aside class="notes"></aside>
+          </section>
+          <section>
+            <img src="assets/obvious-marianne.webp" />
+            <aside class="notes"></aside>
+          </section>
+        </section>
+
+        <!-- TOOLBOX -->
+        <!-- <section>
+          <img src="assets/tools-diversity.webp" />
+          <aside class="notes"></aside>
+        </section> -->
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        //loop: true,
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+
+      window.setTimeout(() => {
+        var exampleLinks = document.getElementsByTagName("video");
+
+        Array.prototype.forEach.call(exampleLinks, function (elem, index) {
+          elem.setAttribute("loop", true);
+        });
+      }, 1000);
+    </script>
+  </body>
+</html>
